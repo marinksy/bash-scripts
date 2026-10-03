@@ -3,4 +3,6 @@ df -h
 
 echo 'Verificare RAM'
 
-free -mh
+#pentru MAC#
+top -l 1 | grep PhysMem
+
